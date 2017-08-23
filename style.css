@@ -28,40 +28,35 @@
 #box1{
  width: 66%;
  height: 50%;
- background: #B9E3C6;
+ background: #B10029;
  float:left;
  z-index: 99;
 }
 
 #box2 {
  width: 33%;
- height: 25%;
- background: #37ECBA;
+ height: 50%;
+ background: #831421;
  float: left;
 }
 
 #box3{
  width: 33%;
- height: 25%;
- background: #37A4E5;
+ height: 50%;
+ background: #EDF2F4;
  float: left;
 }
 
 #box4{
  width: 33%;
  height: 50%;
- background: #84F0D2;
+ background: #8D99AE;
  float: left;
 }
+
 #box5{
  width: 33%;
  height: 50%;
- background: #FFFFF2;
- float: left;
-}
-#box6{
- width: 33%;
- height: 50%;
- background: #1FE4AD;
+ background: #2B2D42;
  float: left;
 }

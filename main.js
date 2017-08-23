@@ -1,3 +1,5 @@
+//ADD A HOVER SLIGHT GROWTH AND WIGGLE ANIMATION TO EACH BOX
+
 $("body").delegate('.box','click', function(){
 
     if ($('.box.active').length <= 0){
