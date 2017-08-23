@@ -58,6 +58,7 @@ $("#box5, #box4, #box2, #box1")
   $("#box3")
     .mouseenter(function() {
       $(this).css("background", "#D8DCDE");
+      $(this).css("opacity", "1");
     })
     .mouseleave(function() {
       $(this).css("background", "#EDF2F4");
