@@ -1,4 +1,4 @@
-body{
+#body{
  padding: 0px;
  margin: 0px;
  width: 100%;
@@ -6,10 +6,9 @@ body{
 }
 
 #content{
- width: 450px;
- height: 250px;
+ width: 100vw;
+ height: 100vh;
  position: relative;
- top: 50px;
 }
 
 .box {
@@ -22,16 +21,14 @@ body{
 }
 
 #containerleft{
-  width:450px;
-  height:250px;
+  width:100vw;
+  height:100vh;
 }
-
-
 
 #box1{
  width: 66%;
  height: 50%;
- background: pink;
+ background: #B9E3C6;
  float:left;
  z-index: 99;
 }
@@ -39,32 +36,32 @@ body{
 #box2 {
  width: 33%;
  height: 25%;
- background: gray;
+ background: #37ECBA;
  float: left;
 }
 
 #box3{
  width: 33%;
  height: 25%;
- background: black;
+ background: #37A4E5;
  float: left;
 }
 
 #box4{
  width: 33%;
  height: 50%;
- background: green;
+ background: #84F0D2;
  float: left;
 }
 #box5{
  width: 33%;
  height: 50%;
- background: yellow;
+ background: #FFFFF2;
  float: left;
 }
 #box6{
  width: 33%;
  height: 50%;
- background: blue;
+ background: #1FE4AD;
  float: left;
 }

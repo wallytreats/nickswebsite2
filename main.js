@@ -17,10 +17,7 @@ $("body").delegate('.box','click', function(){
             top: 0,
             left: 0
         },300);
-
     }
-
-
 });
 
 $("body").delegate('.box.active','click', function(){
@@ -40,5 +37,4 @@ $("body").delegate('.box.active','click', function(){
             $('.box.active').remove();
             cloned.removeClass('cloned');
         });
-
 });
