@@ -40,3 +40,25 @@ $("body").delegate('.box.active','click', function(){
             cloned.removeClass('cloned');
         });
 });
+
+// $("#box5").hover(function(){
+//   $(this).css("width", "35%", "height", "55%");
+//   $("#box2").css("width", "33%", "height", "28%");
+//   $("#box4").css("width", "31%", "height", "50%");
+// })
+
+$("#box5, #box4, #box2, #box1")
+  .mouseenter(function() {
+    $(this).css("opacity", "1");
+  })
+  .mouseleave(function() {
+    $(this).css("opacity", ".9");
+  });
+
+  $("#box3")
+    .mouseenter(function() {
+      $(this).css("background", "#D8DCDE");
+    })
+    .mouseleave(function() {
+      $(this).css("background", "#EDF2F4");
+    });

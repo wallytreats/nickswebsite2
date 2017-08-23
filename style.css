@@ -1,23 +1,23 @@
 #body{
- padding: 0px;
- margin: 0px;
- width: 100%;
- height: 100%;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
 }
 
 #content{
- width: 100vw;
- height: 100vh;
- position: relative;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
 }
 
 .box {
-    z-index: 0;
+  z-index: 0;
 }
 
 .box.active {
-    position: absolute;
-    z-index: 9000;
+  position: absolute;
+  z-index: 9000;
 }
 
 #containerleft{
@@ -26,37 +26,42 @@
 }
 
 #box1{
- width: 66%;
- height: 50%;
- background: #B10029;
- float:left;
- z-index: 99;
+  opacity: .9;
+  width: 66%;
+  height: 50%;
+  background: #B10029;
+  float:left;
+  z-index: 99;
 }
 
 #box2 {
- width: 33%;
- height: 50%;
- background: #831421;
- float: left;
+  opacity: .9;
+  width: 33%;
+  height: 50%;
+  background: #831421;
+  float: left;
 }
 
 #box3{
- width: 33%;
- height: 50%;
- background: #EDF2F4;
- float: left;
+  opacity: .9;
+  width: 33%;
+  height: 50%;
+  background: #EDF2F4;
+  float: left;
 }
 
 #box4{
- width: 33%;
- height: 50%;
- background: #8D99AE;
- float: left;
+  opacity: .9;
+  width: 33%;
+  height: 50%;
+  background: #8D99AE;
+  float: left;
 }
 
 #box5{
- width: 33%;
- height: 50%;
- background: #2B2D42;
- float: left;
+  opacity: .9;
+  width: 33%;
+  height: 50%;
+  background: #2B2D42;
+  float: left;
 }
