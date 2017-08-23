@@ -25,13 +25,19 @@
   height:100vh;
 }
 
+#containerleft::after{
+  content: "";
+ display: table;
+ clear: both;
+}
+
 #box1{
   opacity: .9;
   width: 66%;
   height: 50%;
-  background: #B10029;
+  background: #747274;
   float:left;
-  z-index: 99;
+  transition: all 150ms linear;
 }
 
 #box2 {
@@ -40,6 +46,7 @@
   height: 50%;
   background: #831421;
   float: left;
+  transition: all 150ms linear;
 }
 
 #box3{
@@ -48,6 +55,7 @@
   height: 50%;
   background: #EDF2F4;
   float: left;
+  transition: all 150ms linear;
 }
 
 #box4{
@@ -56,6 +64,7 @@
   height: 50%;
   background: #8D99AE;
   float: left;
+  transition: all 150ms linear;
 }
 
 #box5{
@@ -64,4 +73,9 @@
   height: 50%;
   background: #2B2D42;
   float: left;
+  transition: all 150ms linear;
+}
+
+#box5:hover, #box4:hover, #box3:hover, #box2:hover, #box1:hover{
+  transform: scale(1.02);
 }
