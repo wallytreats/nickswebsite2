@@ -18,7 +18,7 @@ $("body").delegate('.box','click', function(){
             height : '100%',
             top: 0,
             left: 0
-        },300);
+        },500);
     }
 });
 
@@ -35,31 +35,16 @@ $("body").delegate('.box.active','click', function(){
             height : h + 'px',
             top: pos.top + 'px',
             left: pos.left + 'px'
-        },300, function(){
+        },500, function(){
             $('.box.active').remove();
             cloned.removeClass('cloned');
         });
 });
 
-// $("#box5").hover(function(){
-//   $(this).css("width", "35%", "height", "55%");
-//   $("#box2").css("width", "33%", "height", "28%");
-//   $("#box4").css("width", "31%", "height", "50%");
-// })
-
-$("#box5, #box4, #box2, #box1")
+$("#box5, #box4, #box3, #box2, #box1")
   .mouseenter(function() {
     $(this).css("opacity", "1");
   })
   .mouseleave(function() {
     $(this).css("opacity", ".9");
   });
-
-  $("#box3")
-    .mouseenter(function() {
-      $(this).css("background", "#D8DCDE");
-      $(this).css("opacity", "1");
-    })
-    .mouseleave(function() {
-      $(this).css("background", "#EDF2F4");
-    });

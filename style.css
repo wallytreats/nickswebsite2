@@ -1,3 +1,7 @@
+html{
+  background: #747274;
+}
+
 #body{
   padding: 0px;
   margin: 0px;
@@ -27,55 +31,51 @@
 
 #containerleft::after{
   content: "";
- display: table;
- clear: both;
+  display: table;
+  clear: both;
 }
 
 #box1{
   opacity: .9;
   width: 66%;
-  height: 50%;
-  background: #747274;
+  height: 100%;
+  background: #3E482E;
   float:left;
-  transition: all 150ms linear;
+  transition: all 150ms;
 }
 
 #box2 {
-  opacity: .9;
+  opacity: .8;
   width: 33%;
-  height: 50%;
-  background: #831421;
+  height: 25%;
+  background: #617147;
   float: left;
-  transition: all 150ms linear;
 }
 
 #box3{
-  opacity: .9;
+  opacity: .8;
   width: 33%;
-  height: 50%;
-  background: #EDF2F4;
+  height: 25%;
+  background: #98B06F;
   float: left;
-  transition: all 150ms linear;
 }
 
 #box4{
   opacity: .9;
   width: 33%;
-  height: 50%;
-  background: #8D99AE;
+  height: 25%;
+  background: #B6DC76;
   float: left;
-  transition: all 150ms linear;
 }
 
 #box5{
   opacity: .9;
   width: 33%;
-  height: 50%;
-  background: #2B2D42;
+  height: 25%;
+  background: #DBFF76;
   float: left;
-  transition: all 150ms linear;
 }
 
-#box5:hover, #box4:hover, #box3:hover, #box2:hover, #box1:hover{
+#box5:hover, #box4:hover, #box3:hover, #box2:hover{
   transform: scale(1.02);
 }
